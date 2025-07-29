@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Landing Page</title>
+</head>
+<body>
+  <h1>Welcome to My Website!</h1>
+  <p>This is a simple landing page built with HTML, CSS, and JavaScript.</p>
+  <button>Click Me</button>
+</body>
+</html>
+<style>
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 60px;
+  }
+
+  h1 {
+    color: #007BFF;
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+
+  button {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+</style>
+<script>
+  document.querySelector("button").onclick = function() {
+    alert("Thanks for clicking!");
+  };
+</script>
